@@ -1,9 +1,9 @@
-A22EC0195
+A22EC0059
 Koh Li Hui
-789 Oak St
-Springfield
-IL
-62704
-kohlihui@gmail.com
+119 Jalan Abdullah
+Skudai
+Johor
+62000
+kohhui@gradaute.utm.my
 Faculty of Computing
-Information Technology
+Data Engineering
