@@ -12,6 +12,7 @@ public class LoginSystem {
         Faculty engineering = new Faculty("Faculty of Engineering");
         Faculty arts = new Faculty("Faculty of Arts");
 
+        // Last Semester Lecturer
         Lecturer drJohnDoe = new Lecturer("Dr. John Doe", "johndoe@university.edu", "Room 101");
         Lecturer drJaneDoe = new Lecturer("Dr. Jane Doe", "janedoe@university.edu", "Room 102");
         Lecturer drJamesDoe = new Lecturer("Dr. James Doe", "jamesdoe@university.edu", "Room 103");
@@ -27,9 +28,9 @@ public class LoginSystem {
         Course NC = new Course("SECR1213", "Network Communication", computing, drJackDoe, "", "", "", "");
 
         // Initialize Student objects
-        Postgraduate student1 = new Postgraduate("Info1.txt");
-        Undergraduate student2 = new Undergraduate("Info2.txt");
-        Undergraduate student3 = new Undergraduate("Info3.txt");
+        Postgraduate student1 = new Postgraduate("UTMSMS  4.1/Info1.txt");
+        Undergraduate student2 = new Undergraduate("UTMSMS  4.1/Info2.txt");
+        Undergraduate student3 = new Undergraduate("UTMSMS  4.1/Info3.txt");
 
         // Initialize Grade objects for each student
         List<Grade> gradesUser1 = new ArrayList<>();
