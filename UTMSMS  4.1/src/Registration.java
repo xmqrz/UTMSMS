@@ -11,19 +11,22 @@ public class Registration {
         Faculty engineering = new Faculty("Faculty of Engineering");
         Faculty arts = new Faculty("Faculty of Arts");
 
-        Lecturer drJohnDoe = new Lecturer("Dr. John Doe", "johndoe@university.edu", "Room 101");
-        Lecturer drJaneDoe = new Lecturer("Dr. Jane Doe", "janedoe@university.edu", "Room 102");
-        Lecturer drJamesDoe = new Lecturer("Dr. James Doe", "jamesdoe@university.edu", "Room 103");
-        Lecturer drJanetDoe = new Lecturer("Dr. Janet Doe", "janetdoe@university.edu", "Room 104");
-        Lecturer drJackDoe = new Lecturer("Dr. Jack Doe", "jackdoe@university.edu", "Room 105");
-        Lecturer drJillDoe = new Lecturer("Dr. Jill Doe", "jilldoe@university.edu", "Room 106");
+        Lecturer drAhmadNajmi = new Lecturer("Dr. Ahmad Najmi bin Amerhaider Nuar", "ahmadnajmi@utm.my", "Room 101");
+        Lecturer drMohdFoad = new Lecturer("Dr. Mohd Fo’ad bin Rohani", "mohdfoad@utm.my", "Room 102");
+        Lecturer drMuhalim = new Lecturer("Dr. Muhalim bin Mohamed Amin", "muhalim@utm.my", "Room 103");
+        Lecturer drNoorfaHaszlinna = new Lecturer("Dr. Noorfa Haszlinna binti Mustaffa", "noorfa@utm.my", "Room 104");
+        Lecturer drNiesHuiWen = new Lecturer("Dr. Nies Hui Wen", "nieshuiwen@utm.my", "Room 105");
+        Lecturer mrLoh = new Lecturer("Mr. Loh", "loh@utm.my", "Room 106");
 
-        courseOfferingsList.add(new Course("SECPROG", "Software Engineering", computing, drJohnDoe, "8:00 AM", "10:00 AM", "Monday", "BK1, N28a"));
-        courseOfferingsList.add(new Course("SECDES", "Software Design", computing, drJaneDoe, "10:00 AM", "12:00 PM", "Tuesday", "MPK8, N28"));
-        courseOfferingsList.add(new Course("SECENG", "Software Development", computing, drJamesDoe, "2:00 PM", "4:00 PM", "Wednesday", "BK4, N28"));
-        courseOfferingsList.add(new Course("SECDAT", "Software Data Management", computing, drJanetDoe, "4:00 PM", "6:00 PM", "Thursday", "MP1, N28a"));
-        courseOfferingsList.add(new Course("SECJAV", "Software Java Programming", computing, drJackDoe, "8:00 AM", "10:00 AM", "Friday", "BK3, N28"));
-        courseOfferingsList.add(new Course("SECTEL", "Software Telecommunications", computing, drJillDoe, "10:00 AM", "12:00 PM", "Saturday", "MPK1, N28"));
+
+        courseOfferingsList.add(new Course("SBEA1223", "Basic Architectural Computing", computing, drAhmadNajmi, "8:00 AM", "10:00 AM", "Monday", "BK1, N28a"));
+        courseOfferingsList.add(new Course("SECJ3553", "Artificial Intelligence", computing, drMohdFoad, "10:00 AM", "12:00 PM", "Tuesday", "MPK8, N28"));
+        courseOfferingsList.add(new Course("SECP3223", "Data Analytics Programming", computing, drMuhalim, "2:00 PM", "4:00 PM", "Wednesday", "BK4, N28"));
+        courseOfferingsList.add(new Course("SECP3744", "Enterprise Systems Design and Modeling (WBL)", computing, drNoorfaHaszlinna, "4:00 PM", "6:00 PM", "Thursday", "MP1, N28a"));
+        courseOfferingsList.add(new Course("UHBL3132", "Professional Communication Skills", computing, drNiesHuiWen, "8:00 AM", "10:00 AM", "Friday", "BK3, N28"));
+        courseOfferingsList.add(new Course("UHL1112", "Japanese Language I", computing, mrLoh, "10:00 AM", "12:00 PM", "Saturday", "MPK1, N28"));
+        
+
     }
 
     public static void addCourseOffering(Course course) {

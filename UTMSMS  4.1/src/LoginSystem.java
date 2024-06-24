@@ -13,19 +13,19 @@ public class LoginSystem {
         Faculty arts = new Faculty("Faculty of Arts");
 
         // Last Semester Lecturer
-        Lecturer drJohnDoe = new Lecturer("Dr. John Doe", "johndoe@university.edu", "Room 101");
-        Lecturer drJaneDoe = new Lecturer("Dr. Jane Doe", "janedoe@university.edu", "Room 102");
-        Lecturer drJamesDoe = new Lecturer("Dr. James Doe", "jamesdoe@university.edu", "Room 103");
-        Lecturer drJanetDoe = new Lecturer("Dr. Janet Doe", "janetdoe@university.edu", "Room 104");
-        Lecturer drJackDoe = new Lecturer("Dr. Jack Doe", "jackdoe@university.edu", "Room 105");
-        Lecturer drJillDoe = new Lecturer("Dr. Jill Doe", "jilldoe@university.edu", "Room 106");
-
+        Lecturer drAhmadNajmi = new Lecturer("Dr. Ahmad Najmi bin Amerhaider Nuar", "ahmadnajmi@utm.my", "Room 101");
+        Lecturer drMohdFoad = new Lecturer("Dr. Mohd Fo’ad bin Rohani", "mohdfoad@utm.my", "Room 102");
+        Lecturer drMuhalim = new Lecturer("Dr. Muhalim bin Mohamed Amin", "muhalim@utm.my", "Room 103");
+        Lecturer drNoorfaHaszlinna = new Lecturer("Dr. Noorfa Haszlinna binti Mustaffa", "noorfa@utm.my", "Room 104");
+        Lecturer drNiesHuiWen = new Lecturer("Dr. Nies Hui Wen", "nieshuiwen@utm.my", "Room 105");
+        
         // Last Semester Courses
-        Course PSDA = new Course("SECJ2013", "Data Structure", computing, drJohnDoe, "", "", "", "");
-        Course DATA = new Course("SECP2523", "Database", computing, drJaneDoe, "", "", "", "");
-        Course SAD = new Course("SECP2613", "System Analysis and Design", computing, drJamesDoe, "", "", "", "");
-        Course SDT = new Course("SECP3723", "Data Development Technology", computing, drJanetDoe, "", "", "", "");
-        Course NC = new Course("SECR1213", "Network Communication", computing, drJackDoe, "", "", "", "");
+        Course PSDA = new Course("SECJ2013", "Data Structure", computing, drAhmadNajmi, "", "", "", "");
+        Course DATA = new Course("SECP2523", "Database", computing, drMohdFoad, "", "", "", "");
+        Course SAD = new Course("SECP2613", "System Analysis and Design", computing, drMuhalim, "", "", "", "");
+        Course SDT = new Course("SECP3723", "Data Development Technology", computing, drNoorfaHaszlinna, "", "", "", "");
+        Course NC = new Course("SECR1213", "Network Communication", computing, drNiesHuiWen, "", "", "", "");
+
 
         // Initialize Student objects
         Postgraduate student1 = new Postgraduate("UTMSMS  4.1/Info1.txt");
