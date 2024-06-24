@@ -24,7 +24,7 @@ public class Registration {
         courseOfferingsList.add(new Course("SECP3223", "Data Analytics Programming", computing, drMuhalim, "2:00 PM", "4:00 PM", "Wednesday", "BK4, N28"));
         courseOfferingsList.add(new Course("SECP3744", "Enterprise Systems Design and Modeling (WBL)", computing, drNoorfaHaszlinna, "4:00 PM", "6:00 PM", "Thursday", "MP1, N28a"));
         courseOfferingsList.add(new Course("UHBL3132", "Professional Communication Skills", computing, drNiesHuiWen, "8:00 AM", "10:00 AM", "Friday", "BK3, N28"));
-        courseOfferingsList.add(new Course("UHL1112", "Japanese Language I", computing, mrLoh, "10:00 AM", "12:00 PM", "Saturday", "MPK1, N28"));
+        courseOfferingsList.add(new Course("UHLJ1112", "Japanese Language I", computing, mrLoh, "10:00 AM", "12:00 PM", "Saturday", "MPK1, N28"));
         
 
     }
