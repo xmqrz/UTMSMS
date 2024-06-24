@@ -61,9 +61,9 @@ public class LoginSystem {
 
         // Initialize User array
         users = new User[]{
-                new User("A22EC0193", coursesUser1, gradesUser1, student1, "User1.txt"),
-                new User("A22EC0042", coursesUser2, gradesUser2, student2, "User2.txt"),
-                new User("A22EC0059", coursesUser3, gradesUser3, student3, "User3.txt")
+                new User("A22EC0193", coursesUser1, gradesUser1, student1, "UTMSMS  4.1/User1.txt"),
+                new User("A22EC0042", coursesUser2, gradesUser2, student2, "UTMSMS  4.1/User2.txt"),
+                new User("A22EC0059", coursesUser3, gradesUser3, student3, "UTMSMS  4.1/User3.txt")
         };
 
         // Initialize Finance array
