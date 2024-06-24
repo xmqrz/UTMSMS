@@ -1,9 +1,9 @@
-A22EC0194
-Pyng Haw
-Jalan Rawang
+A22EC0042
+Chen Pyng Haw
+Taman Rawang Perdana
 Rawang
 Selangor
-35894
-pynghaw@graduate.utm.my
+48000
+chenhaw@graduate.utm.my
 Faculty of Computing
 Data Engineering
